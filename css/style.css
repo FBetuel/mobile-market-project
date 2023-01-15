@@ -30,6 +30,16 @@ html::-webkit-scrollbar {
   width: 0.8rem;
 }
 
+.sign-in label {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.sign-in label:hover {
+  color: orange;
+}
+
 html::-webkit-scrollbar-track {
   background: transparent;
 }
@@ -38,6 +48,18 @@ html::-webkit-scrollbar-thumb {
   background: #fff;
   border-radius: 5rem;
 }
+
+.sign-up label {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+.sign-up label:hover {
+  color: orange;
+}
+
 
 body {
   background: var(--bg);
